@@ -1,0 +1,256 @@
+<rdf:RDF
+    xmlns:rdf     = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs    = "http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd     = "http://www.w3.org/2001/XMLSchema#"
+    xmlns:owl     = "http://www.w3.org/2002/07/owl#"
+    xmlns:swrl    = "http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb   = "http://www.w3.org/2003/11/swrlb#"
+    xmlns:vitro1  = "http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+    xmlns:bibo    = "http://purl.org/ontology/bibo/"
+    xmlns:c4o     = "http://purl.org/spar/c4o/"
+    xmlns:dcelem  = "http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms = "http://purl.org/dc/terms/"
+    xmlns:event   = "http://purl.org/NET/c4dm/event.owl#"
+    xmlns:foaf    = "http://xmlns.com/foaf/0.1/"
+    xmlns:fabio   = "http://purl.org/spar/fabio/"
+    xmlns:geo     = "http://aims.fao.org/aos/geopolitical.owl#"
+    xmlns:pvs     = "http://vivoweb.org/ontology/provenance-support#"
+    xmlns:ero     = "http://purl.obolibrary.org/obo/"
+    xmlns:scires  = "http://vivoweb.org/ontology/scientific-research#"
+    xmlns:skos    = "http://www.w3.org/2004/02/skos/core#"
+    xmlns:ufVivo  = "http://vivo.ufl.edu/ontology/vivo-ufl/"
+    xmlns:vitro2  = "http://vitro.mannlib.cornell.edu/ns/vitro/public#"
+    xmlns:core    = "http://vivoweb.org/ontology/core#"
+    xmlns:vivo    = "http://vivoweb.org/ontology/core#">
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1169529744">
+        <ufVivo:dateHarvested>2014-03-10T15:46:56.870000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1169529744">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1423717866">
+        <ufVivo:dateHarvested>2014-03-10T15:46:57.136000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1423717866">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n8678251934">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n8678251934">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#FundingAgency"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n8678251934">
+        <rdfs:label>Epimaterials</rdfs:label>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n8678251934">
+        <ufVivo:dateHarvested>2014-03-10T15:46:57.463000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n8678251934">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1472163067">
+        <rdfs:label>American Councils for Intl Education</rdfs:label>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1472163067">
+        <ufVivo:dateHarvested>2014-03-10T15:46:57.713000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1472163067">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1251434694">
+        <ufVivo:dateHarvested>2014-03-10T15:46:57.962000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1251434694">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n3119455427">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n3119455427">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#FundingAgency"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n3119455427">
+        <rdfs:label>Ball State University</rdfs:label>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n3119455427">
+        <ufVivo:dateHarvested>2014-03-10T15:46:58.290000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n3119455427">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1367250221">
+        <ufVivo:dateHarvested>2014-03-10T15:46:58.540000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1367250221">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n751660207">
+        <ufVivo:dateHarvested>2014-03-10T15:46:58.789000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n751660207">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n803760352">
+        <ufVivo:dateHarvested>2014-03-10T15:46:59.039000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n803760352">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n945017590">
+        <ufVivo:dateHarvested>2014-03-10T15:46:59.273000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n945017590">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n549820479">
+        <ufVivo:dateHarvested>2014-03-10T15:46:59.522000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n549820479">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n453640799">
+        <ufVivo:dateHarvested>2014-03-10T15:46:59.772000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n453640799">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n423361054">
+        <ufVivo:dateHarvested>2014-03-10T15:47:00.022000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n423361054">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n699995966">
+        <ufVivo:dateHarvested>2014-03-10T15:47:00.271000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n699995966">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1172903914">
+        <ufVivo:dateHarvested>2014-03-10T15:47:00.521000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1172903914">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n6710736689">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n6710736689">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#FundingAgency"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n6710736689">
+        <rdfs:label>American Society of Human Genetics</rdfs:label>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n6710736689">
+        <ufVivo:dateHarvested>2014-03-10T15:47:00.848000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n6710736689">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n4517789476">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n4517789476">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#FundingAgency"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n4517789476">
+        <rdfs:label>Irving I Moskowitz Foundation</rdfs:label>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n4517789476">
+        <ufVivo:dateHarvested>2014-03-10T15:47:01.192000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n4517789476">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1964190293">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1964190293">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#FundingAgency"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1964190293">
+        <rdfs:label>Hemophila Foundation of Greater Florida</rdfs:label>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1964190293">
+        <ufVivo:dateHarvested>2014-03-10T15:47:01.519000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1964190293">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n612725306">
+        <rdfs:label>Agc Estatal Consejo Sup Invest Cientific</rdfs:label>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n612725306">
+        <ufVivo:dateHarvested>2014-03-10T15:47:01.769000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n612725306">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1896626053">
+        <rdfs:label>Research Institute of Industrial Science and Technol</rdfs:label>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1896626053">
+        <ufVivo:dateHarvested>2014-03-10T15:47:02.018000</ufVivo:dateHarvested>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1896626053">
+        <ufVivo:harvestedBy>Python Sponsors 0.0</ufVivo:harvestedBy>
+    </rdf:Description>
+    </rdf:RDF>

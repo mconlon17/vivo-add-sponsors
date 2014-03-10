@@ -1,0 +1,10 @@
+2014-03-10 15:46:55.934000 Start
+2014-03-10 15:46:55.934000 Make sponsor dictionary
+2014-03-10 15:46:56.699000 sponsor dictionary has  2994 entries
+2014-03-10 15:46:56.699000 Read sponsor file
+2014-03-10 15:46:56.699000 sponsor file has  20 entries
+2014-03-10 15:46:56.699000 Begin processing
+2014-03-10 15:47:02.096000 Found =  15
+2014-03-10 15:47:02.096000 Not Found in VIVO, will be added =  5
+2014-03-10 15:47:02.096000 Not Found in UF data =  0
+2014-03-10 15:47:02.096000 Write files

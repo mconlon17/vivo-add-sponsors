@@ -4,12 +4,10 @@
     research, update sponsors an add sponsors
 
     Version 0.0 MC 2014-03-10
-    --  getting started.  NOT COMPLETE
+    --  getting started.
 
     To Do
-    --  Almost everything.  Add type stuff. Read through.  Test cases. Log file.
-        Exception File.  Command line args like grants. File names like grants.
-        pylint.  Testing.
+    --  Add type stuff. pylint.  Testing.
 
 """
 
@@ -29,6 +27,8 @@ from vivotools import read_csv
 from vivotools import rdf_header
 from vivotools import rdf_footer
 from vivotools import get_vivo_value
+import os
+import sys
 
 from datetime import datetime
 
@@ -40,7 +40,7 @@ def make_sponsor_dict(debug=False):
     query = """
     SELECT ?uri ?number
     WHERE {
-        ?uri ufVivo:sponsorNumber ?number
+        ?uri ufVivo:sponsorID ?number
     }"""
     result = vivo_sparql_query(query)
     sponsor_dict = {}
@@ -62,46 +62,89 @@ def make_sponsor_dict(debug=False):
         print sponsor_dict.items()[1:3]
     return sponsor_dict
 
+def improve_sponsor_name(s):
+    """
+    DSP uses a series of abbreviations to sponsor names into database fields.
+    Spell them out as best we can.
+    """
+    if s == "":
+        return s
+    if s[len(s)-1] == ',':
+        s = s[0:len(s)-1]
+    if s[len(s)-1] == ',':
+        s = s[0:len(s)-1]
+    s = s.lower() # convert to lower
+    s = s.title() # uppercase each word
+    s = s + ' '   # add a trailing space so we can find these abbreviated
+                  # words throughout the string
+    t = s.replace(", ,", ",")
+    t = t.replace("  ", " ")
+    t = t.replace(" & ", " and ")
+    t = t.replace(" &", " and ")
+    t = t.replace("&", " and ")
+    t = t.replace("/", " @")
+    t = t.replace("/", " @") # might be two slashes in the input
+    t = t.replace(",", " !")
+    t = t.replace(",", " !") # might be two commas in input
+    t = t.replace("-", " #")
+    t = t.replace("Agcy ", "Agency ")
+    t = t.replace("Amer ", "American ")
+    t = t.replace("And ", "and ")
+    t = t.replace("Asso ", "Association ")
+    t = t.replace("Cncl ", "Council ")
+    t = t.replace("Ctr ", "Center ")
+    t = t.replace("Dept ", "Department ")
+    t = t.replace("Fl ", "Florida ")
+    t = t.replace("For ", "for ")
+    t = t.replace("Fdtn ", "Foundation ")
+    t = t.replace("Fou ", "Foundation ")
+    t = t.replace("Hosp ", "Hospital ")
+    t = t.replace("Inst ", "Institute ")
+    t = t.replace("Med ", "Medical ")
+    t = t.replace("Nat ", "Natural ")
+    t = t.replace("Natl ", "National ")
+    t = t.replace("Of ", "of ")
+    t = t.replace("Reg ", "Regional ")
+    t = t.replace("Res ", "Research ")
+    t = t.replace("Soc ", "Society ")
+    t = t.replace("Univ ", "University ")
+    t = t.replace(" @", "/") # restore /
+    t = t.replace(" @", "/")
+    t = t.replace(" !", ",") # restore ,
+    t = t.replace(" !", ",") # restore ,
+    t = t.replace(" #", "-") # restore -
+    return t[:-1] # Take off the trailing space
+
 def add_sponsor():
     """
     Add a sponsor entity.  All attributes come via update
     """
     ardf = ""
     sponsor_uri = get_vivo_uri()
-    add = assert_data_property(sponsor_uri, "rdfs:label", label)
-    ardf = ardf + add
     add = assert_resource_property(sponsor_uri, "rdf:type",
         "http://xmlns.com/foaf/0.1/Organization")
     ardf = ardf + add
     add = assert_resource_property(sponsor_uri, "rdf:type",
         "http://vivoweb.org/ontology/core#FundingAgency")
     ardf = ardf + add
-    add = assert_data_property(sponsor_uri, "ufVivo:dateHarvested",
-                                             datetime.now().isoformat())
-    ardf = ardf + add
-    add = assert_data_property(sponsor_uri, "ufVivo:harvestedBy",
-        __harvest_text__)
-    ardf = ardf + add
     return [ardf, sponsor_uri]
 
 def update_sponsor(sponsor_uri, sponsor_data):
     """
+    Given the VIVO URI of a sponsor and a dictionary of sponsor data,
+    update the attrbutes in VIVO with the data from the dictionary
+
+    To Do:
+
+    Process type assertions
     """
-    adrf = ""
+    ardf = ""
     srdf = ""
-    sponsor_label = sponsor_data['NAME']
+    sponsor_label = improve_sponsor_name(sponsor_data['SponsorName'])
     vivo_sponsor_label = get_vivo_value(sponsor_uri, "rdfs:label")
     [add, sub] = update_data_property(sponsor_uri, "rdfs:label",
                                       vivo_sponsor_label,
                                       sponsor_label)
-    ardf = ardf + add
-    srdf = srdf + sub
-
-    sponsor_number = sponsor_data['SponsorID']
-    vivo_sponsor_number = get_vivo_value(sponsor_uri, "ufVivo:SponsorID")
-    [add, sub] = update_data_property(sponsor_uri, "ufVivo:SponsorID",
-                                      vivo_sponsor_number,
-                                      sponsor_number)
     ardf = ardf + add
     srdf = srdf + sub
     
@@ -119,10 +162,20 @@ def update_sponsor(sponsor_uri, sponsor_data):
                                       __harvest_text__)
     ardf = ardf + add
     srdf = srdf + sub
-    return [adrf, srdf]
+    return [ardf, srdf]
 
 
 #   Start here
+
+if len(sys.argv) > 1:
+    dsp_file_name = str(sys.argv[1])
+else:
+    dsp_file_name = "test_sponsor_data.txt"
+file_name, file_extension = os.path.splitext(dsp_file_name)
+
+add_file = open(file_name+"_add.rdf", "w")
+sub_file = open(file_name+"_sub.rdf", "w")
+log_file = open(file_name+"_log.txt", "w")
 
 print >>log_file, datetime.now(), "Start"
 print >>log_file, datetime.now(), "Make sponsor dictionary"
@@ -130,11 +183,11 @@ sponsor_dict = make_sponsor_dict(debug=True)
 print >>log_file, datetime.now(), "sponsor dictionary has ", \
     len(sponsor_dict), "entries"
 print >>log_file, datetime.now(), "Read sponsor file"
-campus = read_csv("sponsor_data.csv")
+uf_sponsors = read_csv(dsp_file_name)
 sponsors = {}
-for row in campus.values():
-    sponsors[row['BLDG']] = row
-print >>log_file, datetime.now(), "sponsor file has ", len(sponsors.items()),
+for row in uf_sponsors.values():
+    sponsors[row['SponsorID']] = row
+print >>log_file, datetime.now(), "sponsor file has ", len(sponsors.items()),\
     "entries"
 print >>log_file, datetime.now(), "Begin processing"
 ardf = rdf_header()
@@ -183,10 +236,8 @@ print >>log_file, datetime.now(), "Not Found in UF data = ", \
 print >>log_file, datetime.now(), "Write files"
 adrf = ardf + rdf_footer()
 srdf = srdf + rdf_footer()
-add_file = open("sponsor_add.rdf", "w")
-sub_file = open("sponsor_sub.rdf", "w")
 print >>add_file, adrf
 print >>sub_file, srdf
 add_file.close()
 sub_file.close()
-print datetime.now(), "Finished"
+print >>log_file, datetime.now(), "Finished"
