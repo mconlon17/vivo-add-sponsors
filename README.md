@@ -14,6 +14,9 @@ SponsorType column in the input data file.  Sponsor Types include:
 * U -- University
 * C -- Company
 * F -- Foundation
+* L -- Clinical Organization
+* N -- Funding Organization.  Added to all sponsors
+* A -- Association
 
 So for example, the NIH might be typed GRI.  add_sponsor would type the NIH as organization, funding agency,
 government agency, institute and research organization.

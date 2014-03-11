@@ -3,18 +3,18 @@
     add-sponsors.py -- From a data file consisting of sponsors of
     research, update sponsors an add sponsors
 
-    Version 0.0 MC 2014-03-10
-    --  getting started.
+    Version 0.1 MC 2014-03-10
+    --  Working as expected
 
     To Do
-    --  Add type stuff. pylint.  Testing.
+    --  pylint.  Testing.
 
 """
 
 __author__ = "Michael Conlon"
 __copyright__ = "Copyright 2014, University of Florida"
 __license__ = "BSD 3-Clause license"
-__version__ = "0.0"
+__version__ = "0.1"
 
 __harvest_text__ = "Python Sponsors " + __version__
 
@@ -27,6 +27,7 @@ from vivotools import read_csv
 from vivotools import rdf_header
 from vivotools import rdf_footer
 from vivotools import get_vivo_value
+from vivotools import get_triples
 import os
 import sys
 
@@ -100,6 +101,7 @@ def improve_sponsor_name(s):
     t = t.replace("Fou ", "Foundation ")
     t = t.replace("Hosp ", "Hospital ")
     t = t.replace("Inst ", "Institute ")
+    t = t.replace("Intl ", "International ")
     t = t.replace("Med ", "Medical ")
     t = t.replace("Nat ", "Natural ")
     t = t.replace("Natl ", "National ")
@@ -115,7 +117,7 @@ def improve_sponsor_name(s):
     t = t.replace(" #", "-") # restore -
     return t[:-1] # Take off the trailing space
 
-def add_sponsor():
+def add_sponsor(sponsor_id):
     """
     Add a sponsor entity.  All attributes come via update
     """
@@ -127,7 +129,62 @@ def add_sponsor():
     add = assert_resource_property(sponsor_uri, "rdf:type",
         "http://vivoweb.org/ontology/core#FundingAgency")
     ardf = ardf + add
+    add = assert_data_property(sponsor_uri, "ufVivo:sponsorID",
+        sponsor_id)
+    ardf = ardf + add
     return [ardf, sponsor_uri]
+
+def get_types(uri):
+    """
+    Given a VIVO URI, return its types
+    """
+    types = []
+    triples = get_triples(uri)
+    if 'results' in triples and 'bindings' in triples['results']:
+        rows = triples['results']['bindings']
+        for row in rows:
+            p = row['p']['value']
+            o = row['o']['value']
+            if p == "http://www.w3.org/1999/02/22-rdf-syntax-ns#type":
+                types.append(o)
+    return types
+
+def update_org_types(org_uri, org_string):
+    """
+    Given a VIVO org URI and collection of sponsor types, create add and
+    sub RDF to update the VIVO org types
+    """
+    org_okay = ['http://xmlns.com/foaf/0.1/Organization',
+                'http://www.w3.org/2002/07/owl#Thing',
+                'http://xmlns.com/foaf/0.1/Agent']
+    org_letters = {'A': 'http://vivoweb.org/ontology/core#Association',
+                   'C': 'http://vivoweb.org/ontology/core#Company',
+                   'U': 'http://vivoweb.org/ontology/core#University',
+                   'F': 'http://vivoweb.org/ontology/core#Foundation',
+                   'N': 'http://vivoweb.org/ontology/core#FundingOrganization',
+                   'R': 'http://vivoweb.org/ontology/core#ResearchOrganization',
+                   'G': 'http://vivoweb.org/ontology/core#GovernmentAgency',
+                   'I': 'http://vivoweb.org/ontology/core#Institute',
+                   'L': 'http://vivoweb.org/ontology/core#ClinicalOrganization'}
+
+    ardf = ""
+    srdf = ""
+    vivo_types = get_types(org_uri)
+    org_types = []
+    for org_char in org_string:
+        if org_char in org_letters:
+            org_types.append(org_letters[org_char])
+
+    for org_type in vivo_types:
+        if (len(org_types) == 0 or org_type not in org_types) and \
+            org_type not in org_okay:
+            sub = assert_resource_property(org_uri, "rdf:type", org_type)
+            srdf = srdf + sub
+    for org_type in org_types:
+        if len(vivo_types) == 0 or org_type not in vivo_types:
+            add = assert_resource_property(org_uri, "rdf:type", org_type)
+            ardf = ardf + add
+    return [ardf, srdf]
 
 def update_sponsor(sponsor_uri, sponsor_data):
     """
@@ -147,21 +204,28 @@ def update_sponsor(sponsor_uri, sponsor_data):
                                       sponsor_label)
     ardf = ardf + add
     srdf = srdf + sub
-    
-    vivo_date_harvested = get_vivo_value(sponsor_uri,
-                                         "ufVivo:dateHarvested")
-    [add, sub] = update_data_property(sponsor_uri, "ufVivo:dateHarvested",
-                                      vivo_date_harvested,
-                                      datetime.now().isoformat())
+
+    [add, sub] = update_org_types(sponsor_uri, \
+        sponsor_data['SponsorTypes']+'N')
     ardf = ardf + add
     srdf = srdf + sub
+
+    if ardf != "" or srdf != "":
     
-    vivo_harvested_by = get_vivo_value(sponsor_uri, "ufVivo:harvestedBy")
-    [add, sub] = update_data_property(sponsor_uri, "ufVivo:harvestedBy",
-                                      vivo_harvested_by,
-                                      __harvest_text__)
-    ardf = ardf + add
-    srdf = srdf + sub
+        vivo_date_harvested = get_vivo_value(sponsor_uri,
+                                             "ufVivo:dateHarvested")
+        [add, sub] = update_data_property(sponsor_uri, "ufVivo:dateHarvested",
+                                          vivo_date_harvested,
+                                          datetime.now().isoformat())
+        ardf = ardf + add
+        srdf = srdf + sub
+        
+        vivo_harvested_by = get_vivo_value(sponsor_uri, "ufVivo:harvestedBy")
+        [add, sub] = update_data_property(sponsor_uri, "ufVivo:harvestedBy",
+                                          vivo_harvested_by,
+                                          __harvest_text__)
+        ardf = ardf + add
+        srdf = srdf + sub
     return [ardf, srdf]
 
 
@@ -216,7 +280,7 @@ for sponsor_number in all_numbers:
 #       Sponsor in Sponsor Data, but not in VIVO.  Add to VIVO
 
         sponsor_not_found = sponsor_not_found + 1
-        [add, sponsor_uri] = add_sponsor()
+        [add, sponsor_uri] = add_sponsor(sponsor_number)
         ardf = ardf + add
         [add, sub] = update_sponsor(sponsor_uri, sponsors[sponsor_number])
         ardf = ardf + add
