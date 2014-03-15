@@ -88,27 +88,48 @@ def improve_sponsor_name(s):
     t = t.replace(",", " !")
     t = t.replace(",", " !") # might be two commas in input
     t = t.replace("-", " #")
+    t = t.replace("Acad ", "Academy ")
+    t = t.replace("Admn ", "Administration ")
     t = t.replace("Agcy ", "Agency ")
+    t = t.replace("Agri ", "Agricultural ")
+    t = t.replace("Am ", "American ")
     t = t.replace("Amer ", "American ")
     t = t.replace("And ", "and ")
     t = t.replace("Asso ", "Association ")
+    t = t.replace("Assoc ", "Association ")
+    t = t.replace("Bd ", "Board ")
+    t = t.replace("Brd ", "Board ")
+    t = t.replace("Bur ", "Bureau ")
+    t = t.replace("Char ", "Charitable ")
     t = t.replace("Cncl ", "Council ")
+    t = t.replace("Cntr ", "Center ")
+    t = t.replace("Co ", "County ")
+    t = t.replace("Coll ", "College ")
     t = t.replace("Ctr ", "Center ")
     t = t.replace("Dept ", "Department ")
+    t = t.replace("Dev ", "Development ")
+    t = t.replace("Edu ", "Education ")
+    t = t.replace("Fed ", "Federal ")
     t = t.replace("Fl ", "Florida ")
     t = t.replace("For ", "for ")
     t = t.replace("Fdtn ", "Foundation ")
     t = t.replace("Fou ", "Foundation ")
+    t = t.replace("Gov ", "Government ")
+    t = t.replace("Hlth ", "Health ")
     t = t.replace("Hosp ", "Hospital ")
+    t = t.replace("Hsp ", "Hospital ")
     t = t.replace("Inst ", "Institute ")
     t = t.replace("Intl ", "International ")
     t = t.replace("Med ", "Medical ")
+    t = t.replace("Mem ", "Memorial ")
     t = t.replace("Nat ", "Natural ")
     t = t.replace("Natl ", "National ")
     t = t.replace("Of ", "of ")
     t = t.replace("Reg ", "Regional ")
     t = t.replace("Res ", "Research ")
+    t = t.replace("Sci ", "Science ")
     t = t.replace("Soc ", "Society ")
+    t = t.replace("Tech ", "Technology ")
     t = t.replace("Univ ", "University ")
     t = t.replace(" @", "/") # restore /
     t = t.replace(" @", "/")
@@ -160,6 +181,14 @@ def update_org_types(org_uri, org_string):
     org_letters = {'A': 'http://vivoweb.org/ontology/core#Association',
                    'C': 'http://vivoweb.org/ontology/core#Company',
                    'U': 'http://vivoweb.org/ontology/core#University',
+                   'B': 'http://vivoweb.org/ontology/core#Laboratory',
+                   'S': 'http://vivoweb.org/ontology/core#School',
+                   'T': 'http://vivoweb.org/ontology/core#Center',
+                   'E': 'http://vivoweb.org/ontology/core#College',
+                   'X': 'http://vivoweb.org/ontology/core#ExtensionOrganization',
+                   'V': 'http://vivoweb.org/ontology/core#Division',
+                   'P': 'http://vivoweb.org/ontology/core#Program',
+                   'D': 'http://vivoweb.org/ontology/core#Department',
                    'F': 'http://vivoweb.org/ontology/core#Foundation',
                    'N': 'http://vivoweb.org/ontology/core#FundingOrganization',
                    'R': 'http://vivoweb.org/ontology/core#ResearchOrganization',
