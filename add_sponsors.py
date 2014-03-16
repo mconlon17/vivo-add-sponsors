@@ -89,6 +89,7 @@ def improve_sponsor_name(s):
     t = t.replace(",", " !") # might be two commas in input
     t = t.replace("-", " #")
     t = t.replace("Acad ", "Academy ")
+    t = t.replace("Adm ", "Administration ")
     t = t.replace("Admn ", "Administration ")
     t = t.replace("Agcy ", "Agency ")
     t = t.replace("Agri ", "Agricultural ")
@@ -125,6 +126,7 @@ def improve_sponsor_name(s):
     t = t.replace("Nat ", "Natural ")
     t = t.replace("Natl ", "National ")
     t = t.replace("Of ", "of ")
+    t = t.replace("Ofc ", "Office ")
     t = t.replace("Reg ", "Regional ")
     t = t.replace("Res ", "Research ")
     t = t.replace("Sci ", "Science ")
@@ -184,6 +186,7 @@ def update_org_types(org_uri, org_string):
                    'B': 'http://vivoweb.org/ontology/core#Laboratory',
                    'S': 'http://vivoweb.org/ontology/core#School',
                    'M': 'http://vivoweb.org/ontology/core#Museum',
+                   'Y': 'http://vivoweb.org/ontology/core#Library',
                    'H': 'http://vivoweb.org/ontology/core#Publisher',
                    'T': 'http://vivoweb.org/ontology/core#Center',
                    'E': 'http://vivoweb.org/ontology/core#College',
