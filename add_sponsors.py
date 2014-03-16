@@ -183,6 +183,8 @@ def update_org_types(org_uri, org_string):
                    'U': 'http://vivoweb.org/ontology/core#University',
                    'B': 'http://vivoweb.org/ontology/core#Laboratory',
                    'S': 'http://vivoweb.org/ontology/core#School',
+                   'M': 'http://vivoweb.org/ontology/core#Museum',
+                   'H': 'http://vivoweb.org/ontology/core#Publisher',
                    'T': 'http://vivoweb.org/ontology/core#Center',
                    'E': 'http://vivoweb.org/ontology/core#College',
                    'X': 'http://vivoweb.org/ontology/core#ExtensionOrganization',
