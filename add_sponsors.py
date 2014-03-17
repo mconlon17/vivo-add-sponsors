@@ -1,20 +1,18 @@
 #!/usr/bin/env/python
 """
-    add-sponsors.py -- From a data file consisting of sponsors of
-    research, update sponsors an add sponsors
+    add_sponsors.py -- From a data file consisting of sponsors of
+    research, update sponsors and add sponsors
 
     Version 0.1 MC 2014-03-10
     --  Working as expected
-
-    To Do
-    --  pylint.  Testing.
-
+    Version 0.2 MC 2014-03-16
+    --  Added abbreviations, shortcuts
 """
 
 __author__ = "Michael Conlon"
 __copyright__ = "Copyright 2014, University of Florida"
 __license__ = "BSD 3-Clause license"
-__version__ = "0.1"
+__version__ = "0.2"
 
 __harvest_text__ = "Python Sponsors " + __version__
 
@@ -52,7 +50,7 @@ def make_sponsor_dict(debug=False):
     if debug:
         print query
         if len(rows) >= 2:
-            print rows[0],rows[1]
+            print rows[0], rows[1]
         elif len(rows) == 1:
             print rows[0]
     for row in rows:
@@ -91,6 +89,7 @@ def improve_sponsor_name(s):
     t = t.replace("Acad ", "Academy ")
     t = t.replace("Adm ", "Administration ")
     t = t.replace("Admn ", "Administration ")
+    t = t.replace("Ag ", "Agriculture ")
     t = t.replace("Agcy ", "Agency ")
     t = t.replace("Agri ", "Agricultural ")
     t = t.replace("Am ", "American ")
@@ -101,11 +100,14 @@ def improve_sponsor_name(s):
     t = t.replace("Bd ", "Board ")
     t = t.replace("Brd ", "Board ")
     t = t.replace("Bur ", "Bureau ")
+    t = t.replace("Bwxt ", "BWXT ")
     t = t.replace("Char ", "Charitable ")
     t = t.replace("Cncl ", "Council ")
     t = t.replace("Cntr ", "Center ")
-    t = t.replace("Co ", "County ")
+    t = t.replace("Cnty ", "County ")
+    t = t.replace("Co ", "Company ")
     t = t.replace("Coll ", "College ")
+    t = t.replace("Corp ", "Corporation ")
     t = t.replace("Ctr ", "Center ")
     t = t.replace("Dept ", "Department ")
     t = t.replace("Dev ", "Development ")
@@ -121,18 +123,23 @@ def improve_sponsor_name(s):
     t = t.replace("Hsp ", "Hospital ")
     t = t.replace("Inst ", "Institute ")
     t = t.replace("Intl ", "International ")
+    t = t.replace("Md ", "MD ")
     t = t.replace("Med ", "Medical ")
     t = t.replace("Mem ", "Memorial ")
+    t = t.replace("Mgmt ", "Management ")
     t = t.replace("Nat ", "Natural ")
     t = t.replace("Natl ", "National ")
     t = t.replace("Of ", "of ")
     t = t.replace("Ofc ", "Office ")
+    t = t.replace("On ", "on ")
     t = t.replace("Reg ", "Regional ")
     t = t.replace("Res ", "Research ")
     t = t.replace("Sci ", "Science ")
+    t = t.replace("Se ", "Southeast ")
     t = t.replace("Soc ", "Society ")
     t = t.replace("Tech ", "Technology ")
     t = t.replace("Univ ", "University ")
+    t = t.replace("Us ", "US ")
     t = t.replace(" @", "/") # restore /
     t = t.replace(" @", "/")
     t = t.replace(" !", ",") # restore ,
@@ -150,7 +157,7 @@ def add_sponsor(sponsor_id):
         "http://xmlns.com/foaf/0.1/Organization")
     ardf = ardf + add
     add = assert_resource_property(sponsor_uri, "rdf:type",
-        "http://vivoweb.org/ontology/core#FundingAgency")
+        "http://vivoweb.org/ontology/core#FundingOrganization")
     ardf = ardf + add
     add = assert_data_property(sponsor_uri, "ufVivo:sponsorID",
         sponsor_id)
@@ -180,26 +187,28 @@ def update_org_types(org_uri, org_string):
     org_okay = ['http://xmlns.com/foaf/0.1/Organization',
                 'http://www.w3.org/2002/07/owl#Thing',
                 'http://xmlns.com/foaf/0.1/Agent']
-    org_letters = {'A': 'http://vivoweb.org/ontology/core#Association',
-                   'C': 'http://vivoweb.org/ontology/core#Company',
-                   'U': 'http://vivoweb.org/ontology/core#University',
-                   'B': 'http://vivoweb.org/ontology/core#Laboratory',
-                   'S': 'http://vivoweb.org/ontology/core#School',
-                   'M': 'http://vivoweb.org/ontology/core#Museum',
-                   'Y': 'http://vivoweb.org/ontology/core#Library',
-                   'H': 'http://vivoweb.org/ontology/core#Publisher',
-                   'T': 'http://vivoweb.org/ontology/core#Center',
-                   'E': 'http://vivoweb.org/ontology/core#College',
-                   'X': 'http://vivoweb.org/ontology/core#ExtensionOrganization',
-                   'V': 'http://vivoweb.org/ontology/core#Division',
-                   'P': 'http://vivoweb.org/ontology/core#Program',
-                   'D': 'http://vivoweb.org/ontology/core#Department',
-                   'F': 'http://vivoweb.org/ontology/core#Foundation',
-                   'N': 'http://vivoweb.org/ontology/core#FundingOrganization',
-                   'R': 'http://vivoweb.org/ontology/core#ResearchOrganization',
-                   'G': 'http://vivoweb.org/ontology/core#GovernmentAgency',
-                   'I': 'http://vivoweb.org/ontology/core#Institute',
-                   'L': 'http://vivoweb.org/ontology/core#ClinicalOrganization'}
+    org_letters = {
+        'A': 'http://vivoweb.org/ontology/core#Association',
+        'C': 'http://vivoweb.org/ontology/core#Company',
+        'U': 'http://vivoweb.org/ontology/core#University',
+        'B': 'http://vivoweb.org/ontology/core#Laboratory',
+        'S': 'http://vivoweb.org/ontology/core#School',
+        'M': 'http://vivoweb.org/ontology/core#Museum',
+        'Y': 'http://vivoweb.org/ontology/core#Library',
+        'H': 'http://vivoweb.org/ontology/core#Publisher',
+        'T': 'http://vivoweb.org/ontology/core#Center',
+        'E': 'http://vivoweb.org/ontology/core#College',
+        'X': 'http://vivoweb.org/ontology/core#ExtensionOrganization',
+        'V': 'http://vivoweb.org/ontology/core#Division',
+        'P': 'http://vivoweb.org/ontology/core#Program',
+        'D': 'http://vivoweb.org/ontology/core#Department',
+        'F': 'http://vivoweb.org/ontology/core#Foundation',
+        'N': 'http://vivoweb.org/ontology/core#FundingOrganization',
+        'R': 'http://vivoweb.org/ontology/core#ResearchOrganization',
+        'G': 'http://vivoweb.org/ontology/core#GovernmentAgency',
+        'I': 'http://vivoweb.org/ontology/core#Institute',
+        'L': 'http://vivoweb.org/ontology/core#ClinicalOrganization'
+        }
 
     ardf = ""
     srdf = ""
@@ -231,11 +240,10 @@ def update_sponsor(sponsor_uri, sponsor_data):
     """
     ardf = ""
     srdf = ""
-    sponsor_label = improve_sponsor_name(sponsor_data['SponsorName'])
     vivo_sponsor_label = get_vivo_value(sponsor_uri, "rdfs:label")
     [add, sub] = update_data_property(sponsor_uri, "rdfs:label",
                                       vivo_sponsor_label,
-                                      sponsor_label)
+                                      sponsor_data['sponsor_label'])
     ardf = ardf + add
     srdf = srdf + sub
 
@@ -245,7 +253,7 @@ def update_sponsor(sponsor_uri, sponsor_data):
     srdf = srdf + sub
 
     if ardf != "" or srdf != "":
-    
+
         vivo_date_harvested = get_vivo_value(sponsor_uri,
                                              "ufVivo:dateHarvested")
         [add, sub] = update_data_property(sponsor_uri, "ufVivo:dateHarvested",
@@ -253,7 +261,7 @@ def update_sponsor(sponsor_uri, sponsor_data):
                                           datetime.now().isoformat())
         ardf = ardf + add
         srdf = srdf + sub
-        
+
         vivo_harvested_by = get_vivo_value(sponsor_uri, "ufVivo:harvestedBy")
         [add, sub] = update_data_property(sponsor_uri, "ufVivo:harvestedBy",
                                           vivo_harvested_by,
@@ -284,6 +292,7 @@ print >>log_file, datetime.now(), "Read sponsor file"
 uf_sponsors = read_csv(dsp_file_name)
 sponsors = {}
 for row in uf_sponsors.values():
+    row['sponsor_label'] = improve_sponsor_name(row['SponsorName'])
     sponsors[row['SponsorID']] = row
 print >>log_file, datetime.now(), "sponsor file has ", len(sponsors.items()),\
     "entries"
@@ -307,8 +316,7 @@ for sponsor_number in all_numbers:
         [add, sub] = update_sponsor(sponsor_uri, sponsors[sponsor_number])
         ardf = ardf + add
         srdf = srdf + sub
-        
-                
+
     elif sponsor_number not in sponsor_dict:
 
 #       Sponsor in Sponsor Data, but not in VIVO.  Add to VIVO
