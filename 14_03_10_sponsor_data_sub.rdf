@@ -347,10 +347,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1212315422">
-        <rdfs:label>Walton County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1212315422">
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Company"/>
     </rdf:Description>
     
@@ -360,10 +356,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1212315422">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1417643959">
-        <rdfs:label>Walton County School District</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1417643959">
@@ -416,10 +408,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1942916305">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1812763211">
-        <rdfs:label>National Commission on Science for Sustainable Forestry</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1812763211">
@@ -1048,10 +1036,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1484756892">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1989992039">
-        <rdfs:label>Sarasota County Solid Waste Department</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1989992039">
@@ -2019,10 +2003,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1538327282">
-        <rdfs:label>Florida Commission on Community Service</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1538327282">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
     </rdf:Description>
     
@@ -2308,10 +2288,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n181428">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1297946757">
-        <rdfs:label>Marion County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1297946757">
@@ -2847,10 +2823,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1817191752">
-        <rdfs:label>US Department of Transportation</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1817191752">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -2868,10 +2840,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1851269562">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1138028475">
-        <rdfs:label>US Department of Interior US Geological Survey</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1138028475">
@@ -3100,10 +3068,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1907446091">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1647250586">
-        <rdfs:label>Okaloosa County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1647250586">
@@ -3532,10 +3496,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n119830">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1608451289">
-        <rdfs:label>US Department of Agriculture</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1608451289">
@@ -4532,10 +4492,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n65516">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1531107248">
-        <rdfs:label>Highlands County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1531107248">
@@ -5667,10 +5623,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1477616457">
-        <rdfs:label>Palm Beach County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1477616457">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -5679,10 +5631,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n24136695">
-        <rdfs:label>Orange County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n24136695">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -5691,10 +5639,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2038756205">
-        <rdfs:label>Orange County Board of Commissioners</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2038756205">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -5703,10 +5647,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n715337043">
-        <rdfs:label>Monroe County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n715337043">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -5715,10 +5655,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1623755435">
-        <rdfs:label>Nassau County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1623755435">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -5727,19 +5663,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1641477872">
-        <rdfs:label>Manatee County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1641477872">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1641477872">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n410895186">
-        <rdfs:label>Martin County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n410895186">
@@ -5748,10 +5676,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n410895186">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1229644858">
-        <rdfs:label>Pasco County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1229644858">
@@ -6823,10 +6747,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1261331937">
-        <rdfs:label>St Lucie County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1261331937">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -6835,10 +6755,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n948533773">
-        <rdfs:label>Sumter County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n948533773">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -6847,19 +6763,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1254475158">
-        <rdfs:label>Sumter County Board of County Commissioners</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1254475158">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1254475158">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1682561196">
-        <rdfs:label>Volusia County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1682561196">
@@ -6883,19 +6791,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n677976797">
-        <rdfs:label>Polk County School Board</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n677976797">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n677976797">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1010932904">
-        <rdfs:label>Polk County Board of County Commissioners</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1010932904">
@@ -7360,10 +7260,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1178045527">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1690480099">
-        <rdfs:label>US Agency International Development</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1690480099">
@@ -7995,10 +7891,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n37589">
-        <rdfs:label>Duval County Health Department</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n37589">
         <ufVivo:dateHarvested>2011-12-29-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -8295,10 +8187,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n900100160">
-        <rdfs:label>Indian River County Health Department</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n900100160">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -8447,10 +8335,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n346827">
-        <rdfs:label>US Marine Corps</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n346827">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -8476,10 +8360,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n119830">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n994323182">
-        <rdfs:label>US Department of Homeland Security</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n994323182">
@@ -8587,19 +8467,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n582951557">
-        <rdfs:label>School Board of Sarasota County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n582951557">
         <ufVivo:dateHarvested>2012-01-31-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n582951557">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1194291918">
-        <rdfs:label>School District of Hillsborough County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1194291918">
@@ -8936,10 +8808,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1207340863">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n971260420">
-        <rdfs:label>US Government</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n971260420">
@@ -9548,10 +9416,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n123631986">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1949504204">
-        <rdfs:label>St Lucie County School Board</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1949504204">
@@ -10535,10 +10399,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1166008484">
-        <rdfs:label>Alachua County Public Works Department</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1166008484">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -11235,10 +11095,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n28188">
-        <rdfs:label>US Department of Commerce</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n28188">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -11467,10 +11323,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n28188">
-        <rdfs:label>US Department of Commerce</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n28188">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -11620,10 +11472,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2029830278">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1187291447">
-        <rdfs:label>Osceola County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1187291447">
@@ -11867,10 +11715,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n83514310">
-        <rdfs:label>San Diego County Orchid Society</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n83514310">
         <ufVivo:dateHarvested>2012-01-31-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -12015,10 +11859,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n162317906">
-        <rdfs:label>Bradford County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n162317906">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -12039,10 +11879,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n803141899">
-        <rdfs:label>Alachua County Tourism</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n803141899">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -12060,10 +11896,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1973747562">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n59147">
-        <rdfs:label>Alachua County School Board</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n59147">
@@ -12112,10 +11944,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n192188741">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1924004184">
-        <rdfs:label>Alachua County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1924004184">
@@ -12519,10 +12347,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2043751024">
-        <rdfs:label>Franklin County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2043751024">
         <ufVivo:dateHarvested>2011-12-31-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -12852,10 +12676,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1687522013">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1937935061">
-        <rdfs:label>Solid Waste Authority of Palm Beach County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1937935061">
@@ -14259,10 +14079,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2056901155">
-        <rdfs:label>Alachua County Farm Bureau</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2056901155">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -14615,10 +14431,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n153442">
-        <rdfs:label>US Department of Labor</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n153442">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -14712,10 +14524,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1719588500">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1690480099">
-        <rdfs:label>US Agency International Development</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1690480099">
@@ -15055,10 +14863,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n479585212">
-        <rdfs:label>School Board of Miami-Dade County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n479585212">
         <ufVivo:dateHarvested>2012-01-31-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -15191,19 +14995,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n182924">
-        <rdfs:label>US Navy</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n182924">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n182924">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n54779">
-        <rdfs:label>US Air Force</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n54779">
@@ -15264,10 +15060,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1352074454">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n970185784">
-        <rdfs:label>US Air Force Rome Air Development Center</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n970185784">
@@ -15435,10 +15227,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1525493244">
-        <rdfs:label>School Board of Union County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1525493244">
         <ufVivo:dateHarvested>2012-01-31-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -15452,10 +15240,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n4949450">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2014980416">
-        <rdfs:label>Manatee County Mosquito Control District</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2014980416">
@@ -16107,10 +15891,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1165049338">
-        <rdfs:label>Novartis US Pharmaceuticals</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1165049338">
         <ufVivo:dateHarvested>2012-01-08-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -16279,10 +16059,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n126889">
-        <rdfs:label>US Department of Education</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n126889">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -16312,10 +16088,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n88360984">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1489416227">
-        <rdfs:label>US Health Resources and Serv Administration Mic Wic</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1489416227">
@@ -16708,10 +16480,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1168764914">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1380298617">
-        <rdfs:label>Leon County Farm Bureau</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1380298617">
@@ -17695,19 +17463,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n863999541">
-        <rdfs:label>US Tennis Association</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n863999541">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n863999541">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1111603134">
-        <rdfs:label>US Golf Association</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1111603134">
@@ -18027,10 +17787,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n37271525">
-        <rdfs:label>Leon County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n37271525">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -18255,10 +18011,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n602402693">
-        <rdfs:label>Hesperion US</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n602402693">
         <ufVivo:dateHarvested>2012-01-09-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -18300,10 +18052,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n64321555">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n717085445">
-        <rdfs:label>US Anti-Doping Agency</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n717085445">
@@ -18491,10 +18239,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n177875961">
-        <rdfs:label>US Department of Veterans Affairs</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n177875961">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -18523,10 +18267,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1645896124">
-        <rdfs:label>Administration on Aging</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1645896124">
         <ufVivo:dateHarvested>2011-12-14-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -18544,10 +18284,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n935473132">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1339107733">
-        <rdfs:label>US Food and Drug Administration</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1339107733">
@@ -19611,10 +19347,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1330471222">
-        <rdfs:label>US Department of State</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1330471222">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -20155,10 +19887,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1338291158">
-        <rdfs:label>Duval County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1338291158">
         <ufVivo:dateHarvested>2011-12-29-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -20175,10 +19903,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n633914441">
-        <rdfs:label>Columbia County School District</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n633914441">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -20187,10 +19911,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1611979109">
-        <rdfs:label>Columbia County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1611979109">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -20199,10 +19919,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n80787249">
-        <rdfs:label>Collier County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n80787249">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -20211,19 +19927,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n147860520">
-        <rdfs:label>Citrus County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n147860520">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n147860520">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n585008790">
-        <rdfs:label>Broward County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n585008790">
@@ -20236,10 +19944,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n585008790">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n359706835">
-        <rdfs:label>Brevard County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n359706835">
@@ -21075,10 +20779,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n375134115">
-        <rdfs:label>Hillsborough County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n375134115">
         <ufVivo:dateHarvested>2012-01-09-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -21087,10 +20787,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1603302577">
-        <rdfs:label>Jackson County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1603302577">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -21099,10 +20795,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1468792734">
-        <rdfs:label>Lake County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1468792734">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -21111,19 +20803,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1217008709">
-        <rdfs:label>Lee County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1217008709">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1217008709">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1577441693">
-        <rdfs:label>Lake County Water Authority</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1577441693">
@@ -21903,19 +21587,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n727784696">
-        <rdfs:label>Madison County Board of County Commissioners</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n727784696">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n727784696">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1997492079">
-        <rdfs:label>Sanofi-Synthelabo Research US</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1997492079">
@@ -22047,10 +21723,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n245668348">
-        <rdfs:label>Polk County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n245668348">
         <ufVivo:dateHarvested>2012-01-18-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -22059,10 +21731,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n457303679">
-        <rdfs:label>Pinellas County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n457303679">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -22071,10 +21739,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n998252980">
-        <rdfs:label>Sarasota County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n998252980">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -22083,10 +21747,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n834012776">
-        <rdfs:label>Putnam County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n834012776">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -22095,19 +21755,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1562124395">
-        <rdfs:label>St Johns County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1562124395">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1562124395">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1306590986">
-        <rdfs:label>Seminole County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1306590986">
@@ -23555,10 +23207,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1563746710">
-        <rdfs:label>US Air Force Research Laboratory</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1563746710">
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#ResearchOrganization"/>
     </rdf:Description>
     
@@ -23568,10 +23216,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1563746710">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n849208726">
-        <rdfs:label>US Air Force Air Armament Center</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n849208726">
@@ -24851,19 +24495,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1009512550">
-        <rdfs:label>US Department of Energy Chicago</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1009512550">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1009512550">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n637653530">
-        <rdfs:label>US Department of Energy</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n637653530">
@@ -25395,19 +25031,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1966813168">
-        <rdfs:label>Miami-Dade County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1966813168">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1966813168">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n90369164">
-        <rdfs:label>US Sugar Corporation</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n90369164">
@@ -25655,10 +25283,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1115094616">
-        <rdfs:label>Tampa-Hillsborough County Expressway Authority</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1115094616">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -25808,10 +25432,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1214833187">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1392000676">
-        <rdfs:label>US Dry Bean Council</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1392000676">
@@ -26379,10 +25999,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1386412309">
-        <rdfs:label>Clay County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1386412309">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -26511,10 +26127,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1158770938">
-        <rdfs:label>US Department of Interior National Park Service</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1158770938">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -26555,19 +26167,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1127291084">
-        <rdfs:label>US Department of Interior Fish Wildlife Parks</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1127291084">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1127291084">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n32091">
-        <rdfs:label>US Department of Defense</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n32091">
@@ -27607,10 +27211,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n913033850">
-        <rdfs:label>Lake County Board of County Commissioners</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n913033850">
         <ufVivo:dateHarvested>2012-01-19-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -28319,10 +27919,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1651197548">
-        <rdfs:label>Institute for Research on Gambling Disorders</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1651197548">
         <ufVivo:dateHarvested>2012-01-10-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -28779,10 +28375,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2103747862">
-        <rdfs:label>Escambia County</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2103747862">
         <ufVivo:dateHarvested>2011-12-29-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -29119,10 +28711,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n130883">
-        <rdfs:label>Gilchrist County School Board</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n130883">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -29164,10 +28752,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n453640799">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1324157215">
-        <rdfs:label>Gilchrist County</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1324157215">
@@ -29244,10 +28828,6 @@
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n762659692">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1638394987">
-        <rdfs:label>Siemens US</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1638394987">
@@ -30375,10 +29955,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1715643205">
-        <rdfs:label>US Army Medical Research Acquisition</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1715643205">
         <ufVivo:dateHarvested>2012-01-18-05:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -30387,19 +29963,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n32071966">
-        <rdfs:label>US Army Research Laboratory</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n32071966">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n32071966">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n164130356">
-        <rdfs:label>US Army Humphreys Engineer Center</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n164130356">
@@ -30423,10 +29991,6 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n29763">
-        <rdfs:label>US Army</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n29763">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
@@ -30435,19 +29999,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n232040">
-        <rdfs:label>US Army Corps of Engineers</rdfs:label>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n232040">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n232040">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1223058594">
-        <rdfs:label>US Army Research Office</rdfs:label>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1223058594">

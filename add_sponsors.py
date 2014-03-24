@@ -334,11 +334,11 @@ for sponsor_number in all_numbers:
 
         sponsor_not_in_uf_data = sponsor_not_in_uf_data + 1
 
-print >>log_file, datetime.now(), "Found = ", sponsor_found
-print >>log_file, datetime.now(), "Not Found in VIVO, will be added = ", \
-    sponsor_not_found
-print >>log_file, datetime.now(), "Not Found in UF data = ", \
-    sponsor_not_in_uf_data
+print >>log_file, datetime.now(), "Found in VIVO =", sponsor_found, " will be updated"
+print >>log_file, datetime.now(), "Not Found in VIVO =", \
+    sponsor_not_found, " will be added"
+print >>log_file, datetime.now(), "Found only in VIVO =", \
+    sponsor_not_in_uf_data, "No action to be taken"
 print >>log_file, datetime.now(), "Write files"
 adrf = ardf + rdf_footer()
 srdf = srdf + rdf_footer()
