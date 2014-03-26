@@ -1,11 +1,11 @@
-2014-03-23 14:16:01.492000 Start
-2014-03-23 14:16:01.492000 Make sponsor dictionary
-2014-03-23 14:16:03.056000 sponsor dictionary has  2996 entries
-2014-03-23 14:16:03.056000 Read sponsor file
-2014-03-23 14:16:03.232000 sponsor file has  6070 entries
-2014-03-23 14:16:03.236000 Begin processing
-2014-03-23 15:30:23 Found in VIVO = 2956  will be updated
-2014-03-23 15:30:23 Not Found in VIVO = 3114  will be added
-2014-03-23 15:30:23 Found only in VIVO = 0 No action to be taken
-2014-03-23 15:30:23 Write files
-2014-03-23 15:30:23.063000 Finished
+2014-03-25 19:02:53.369000 Start
+2014-03-25 19:02:53.369000 Make sponsor dictionary
+2014-03-25 19:02:54.561000 sponsor dictionary has  2996 entries
+2014-03-25 19:02:54.561000 Read sponsor file
+2014-03-25 19:02:54.744000 sponsor file has  6070 entries
+2014-03-25 19:02:54.749000 Begin processing
+2014-03-25 20:00:50.912000 Found in VIVO = 2956  will be updated
+2014-03-25 20:00:50.912000 Not Found in VIVO = 3114  will be added
+2014-03-25 20:00:50.913000 Found only in VIVO = 0 No action to be taken
+2014-03-25 20:00:50.913000 Write files
+2014-03-25 20:00:50.973000 Finished
