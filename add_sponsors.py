@@ -8,13 +8,15 @@
     Version 0.2 MC 2014-03-16
     --  Added abbreviations, shortcuts
     Version 0.3 MC 2014-03-27
-    --  Hand lang tags and datatypes in dictionary and RDF
+    --  Handle lang tags and datatypes in dictionary and RDF
+    Version 0.4 MC 2014-03-28
+    --  Handle unicode from VIVO
 """
 
 __author__ = "Michael Conlon"
 __copyright__ = "Copyright 2014, University of Florida"
 __license__ = "BSD 3-Clause license"
-__version__ = "0.3"
+__version__ = "0.4"
 
 __harvest_text__ = "Python Sponsors " + __version__
 
@@ -344,8 +346,8 @@ print >>log_file, datetime.now(), "Found only in VIVO =", \
 print >>log_file, datetime.now(), "Write files"
 adrf = ardf + rdf_footer()
 srdf = srdf + rdf_footer()
-print >>add_file, adrf
-print >>sub_file, srdf
+print >>add_file, adrf.encode('ascii','xmlcharrefreplace')
+print >>sub_file, srdf.encode('ascii','xmlcharrefreplace')
 add_file.close()
 sub_file.close()
 print >>log_file, datetime.now(), "Finished"
