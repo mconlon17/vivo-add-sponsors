@@ -7,12 +7,14 @@
     --  Working as expected
     Version 0.2 MC 2014-03-16
     --  Added abbreviations, shortcuts
+    Version 0.3 MC 2014-03-27
+    --  Hand lang tags and datatypes in dictionary and RDF
 """
 
 __author__ = "Michael Conlon"
 __copyright__ = "Copyright 2014, University of Florida"
 __license__ = "BSD 3-Clause license"
-__version__ = "0.2"
+__version__ = "0.3"
 
 __harvest_text__ = "Python Sponsors " + __version__
 
@@ -24,7 +26,7 @@ from vivotools import update_data_property
 from vivotools import read_csv
 from vivotools import rdf_header
 from vivotools import rdf_footer
-from vivotools import get_vivo_value
+from vivotools import get_value
 from vivotools import get_triples
 import os
 import sys
@@ -240,7 +242,7 @@ def update_sponsor(sponsor_uri, sponsor_data):
     """
     ardf = ""
     srdf = ""
-    vivo_sponsor_label = get_vivo_value(sponsor_uri, "rdfs:label")
+    vivo_sponsor_label = get_value(sponsor_uri, "rdfs:label")
     [add, sub] = update_data_property(sponsor_uri, "rdfs:label",
                                       vivo_sponsor_label,
                                       sponsor_data['sponsor_label'])
@@ -254,7 +256,7 @@ def update_sponsor(sponsor_uri, sponsor_data):
 
     if ardf != "" or srdf != "":
 
-        vivo_date_harvested = get_vivo_value(sponsor_uri,
+        vivo_date_harvested = get_value(sponsor_uri,
                                              "ufVivo:dateHarvested")
         [add, sub] = update_data_property(sponsor_uri, "ufVivo:dateHarvested",
                                           vivo_date_harvested,
@@ -262,7 +264,7 @@ def update_sponsor(sponsor_uri, sponsor_data):
         ardf = ardf + add
         srdf = srdf + sub
 
-        vivo_harvested_by = get_vivo_value(sponsor_uri, "ufVivo:harvestedBy")
+        vivo_harvested_by = get_value(sponsor_uri, "ufVivo:harvestedBy")
         [add, sub] = update_data_property(sponsor_uri, "ufVivo:harvestedBy",
                                           vivo_harvested_by,
                                           __harvest_text__)
