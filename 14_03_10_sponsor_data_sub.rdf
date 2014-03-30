@@ -676,15 +676,6 @@
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2057678822">
         <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n667604118">
-        <rdfs:label xml:lang="en-US">Cervical Spine Research Society</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n667604118">
-        <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n667604118">
-        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1377930702">
         <rdfs:label xml:lang="en-US">South Florida Orchid Society</rdfs:label>
     </rdf:Description>
@@ -2205,15 +2196,6 @@
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n264107844">
-        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1181044604">
-        <rdfs:label xml:lang="en-US">Jiffy Group</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1181044604">
-        <ufVivo:dateHarvested datatype="http://www.w3.org/2001/XMLSchema#string">2012-01-18-05:00</ufVivo:dateHarvested>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1181044604">
         <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n916388285">
@@ -4093,6 +4075,15 @@
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2044226881">
         <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n667604118">
+        <rdfs:label xml:lang="en-US">Cervical Spine Research Society</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n667604118">
+        <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n667604118">
+        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
+    </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1241260476">
         <rdfs:label>Allergan Inc</rdfs:label>
     </rdf:Description>
@@ -4101,15 +4092,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1241260476">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n191212141">
-        <rdfs:label xml:lang="en-US">Dyadic International</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n191212141">
-        <ufVivo:dateHarvested datatype="http://www.w3.org/2001/XMLSchema#string">2011-12-29-05:00</ufVivo:dateHarvested>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n191212141">
-        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n65516">
         <rdfs:label>Halifax Medical Center</rdfs:label>
@@ -5812,6 +5794,15 @@
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n130171">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2020233268">
+        <rdfs:label xml:lang="en-US">Roche Diagnostics Corporation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2020233268">
+        <ufVivo:dateHarvested datatype="http://www.w3.org/2001/XMLSchema#string">2012-01-31-05:00</ufVivo:dateHarvested>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2020233268">
+        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
+    </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n27219">
         <rdfs:label datatype="http://www.w3.org/2001/XMLSchema#string">American College of Rheumatology</rdfs:label>
     </rdf:Description>
@@ -6008,15 +5999,6 @@
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n871392312">
-        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1493494322">
-        <rdfs:label xml:lang="en-US">Docomo USA Labs</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1493494322">
-        <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1493494322">
         <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n535123908">
@@ -6420,15 +6402,6 @@
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n93479505">
         <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2020233268">
-        <rdfs:label xml:lang="en-US">Roche Diagnostics Corporation</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2020233268">
-        <ufVivo:dateHarvested datatype="http://www.w3.org/2001/XMLSchema#string">2012-01-31-05:00</ufVivo:dateHarvested>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2020233268">
-        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1459228214">
         <rdfs:label xml:lang="en-US">SVT Associates, Inc</rdfs:label>
     </rdf:Description>
@@ -6825,14 +6798,18 @@
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1159010318">
         <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1213795043">
-        <rdfs:label xml:lang="en-US">Vertical Partners</rdfs:label>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n6683693121">
+        <rdfs:label>American Pomological Society</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1213795043">
+
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n6683693121">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Publisher"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n6683693121">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1213795043">
-        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n6683693121">
+        <ufVivo:harvestedBy>Python Pubs version 1.0</ufVivo:harvestedBy>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n374987770">
         <rdfs:label xml:lang="en-US">Action Pharma</rdfs:label>
@@ -8089,6 +8066,15 @@
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2015430674">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1493494322">
+        <rdfs:label xml:lang="en-US">Docomo USA Labs</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1493494322">
+        <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1493494322">
+        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
+    </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n765801673">
         <rdfs:label xml:lang="en-US">Society for Clinical Child &amp; Adolescent Psychology</rdfs:label>
     </rdf:Description>
@@ -8673,22 +8659,22 @@
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n583059470">
         <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n165890">
-        <rdfs:label xml:lang="en-US">Middle Tennessee State University</rdfs:label>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1320130843">
+        <rdfs:label xml:lang="en-US">City of Williston</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n165890">
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1320130843">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n165890">
-        <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1320130843">
+        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2068993634">
-        <rdfs:label xml:lang="en-US">ICF International</rdfs:label>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n164347">
+        <rdfs:label xml:lang="en-US">San Jose State University</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2068993634">
-        <ufVivo:dateHarvested datatype="http://www.w3.org/2001/XMLSchema#string">2012-01-09-05:00</ufVivo:dateHarvested>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n164347">
+        <ufVivo:dateHarvested datatype="http://www.w3.org/2001/XMLSchema#string">2012-02-10-05:00</ufVivo:dateHarvested>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2068993634">
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n164347">
         <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1155770018">
@@ -10710,18 +10696,14 @@
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n657287455">
         <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n6683693121">
-        <rdfs:label>American Pomological Society</rdfs:label>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1213795043">
+        <rdfs:label xml:lang="en-US">Vertical Partners</rdfs:label>
     </rdf:Description>
-
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n6683693121">
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Publisher"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n6683693121">
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1213795043">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n6683693121">
-        <ufVivo:harvestedBy>Python Pubs version 1.0</ufVivo:harvestedBy>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1213795043">
+        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n163837762">
         <rdfs:label xml:lang="en-US">WalMart Foundation</rdfs:label>
@@ -13278,6 +13260,15 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1511864238">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n191212141">
+        <rdfs:label xml:lang="en-US">Dyadic International</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n191212141">
+        <ufVivo:dateHarvested datatype="http://www.w3.org/2001/XMLSchema#string">2011-12-29-05:00</ufVivo:dateHarvested>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n191212141">
+        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1987634279">
         <rdfs:label xml:lang="en-US">Fine Americas</rdfs:label>
@@ -17420,15 +17411,6 @@
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n612895441">
         <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1165607132">
-        <rdfs:label>Florida Institute for Human and Machine Cognition</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1165607132">
-        <ufVivo:dateHarvested datatype="http://www.w3.org/2001/XMLSchema#string">2011-12-31-05:00</ufVivo:dateHarvested>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1165607132">
-        <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
-    </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1599117058">
         <rdfs:label xml:lang="en-US">City of Fort Myers</rdfs:label>
     </rdf:Description>
@@ -21452,6 +21434,15 @@
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n838738416">
         <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1165607132">
+        <rdfs:label>Florida Institute for Human and Machine Cognition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1165607132">
+        <ufVivo:dateHarvested datatype="http://www.w3.org/2001/XMLSchema#string">2011-12-31-05:00</ufVivo:dateHarvested>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1165607132">
+        <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
+    </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1114508827">
         <rdfs:label xml:lang="en-US">Children's Mercy Hospital and Clinics</rdfs:label>
     </rdf:Description>
@@ -23021,22 +23012,22 @@
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1420544477">
         <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1320130843">
-        <rdfs:label xml:lang="en-US">City of Williston</rdfs:label>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n165890">
+        <rdfs:label xml:lang="en-US">Middle Tennessee State University</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1320130843">
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n165890">
         <ufVivo:dateHarvested>2012-03-20-04:00</ufVivo:dateHarvested>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1320130843">
-        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n165890">
+        <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n164347">
-        <rdfs:label xml:lang="en-US">San Jose State University</rdfs:label>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2068993634">
+        <rdfs:label xml:lang="en-US">ICF International</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n164347">
-        <ufVivo:dateHarvested datatype="http://www.w3.org/2001/XMLSchema#string">2012-02-10-05:00</ufVivo:dateHarvested>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2068993634">
+        <ufVivo:dateHarvested datatype="http://www.w3.org/2001/XMLSchema#string">2012-01-09-05:00</ufVivo:dateHarvested>
     </rdf:Description>
-    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n164347">
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n2068993634">
         <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1216391174">
@@ -24047,6 +24038,15 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1241260476">
         <ufVivo:harvestedBy>DSR-Harvester</ufVivo:harvestedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1181044604">
+        <rdfs:label xml:lang="en-US">Jiffy Group</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1181044604">
+        <ufVivo:dateHarvested datatype="http://www.w3.org/2001/XMLSchema#string">2012-01-18-05:00</ufVivo:dateHarvested>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n1181044604">
+        <ufVivo:harvestedBy datatype="http://www.w3.org/2001/XMLSchema#string">DSR-Harvester</ufVivo:harvestedBy>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n82494">
         <rdfs:label xml:lang="en-US">Westat, Inc</rdfs:label>
