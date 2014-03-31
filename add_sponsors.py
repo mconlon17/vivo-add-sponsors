@@ -237,10 +237,6 @@ def update_sponsor(sponsor_uri, sponsor_data):
     """
     Given the VIVO URI of a sponsor and a dictionary of sponsor data,
     update the attrbutes in VIVO with the data from the dictionary
-
-    To Do:
-
-    Process type assertions
     """
     ardf = ""
     srdf = ""
