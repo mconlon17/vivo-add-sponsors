@@ -12,6 +12,7 @@ __license__     = "BSD 3-Clause license"
 __version__     = "0.1"
 
 from vivotools import get_triples
+import  vivotools as vt
 from datetime import datetime
 
 def get_types(uri):
@@ -30,6 +31,7 @@ def get_types(uri):
     return types
 
 print datetime.now(), "Start"
+print vt.__version__
 print get_types("http://vivo.ufl.edu/individual/n25562")
 print get_types("http://vivo.ufl.edu/individual/n4820")
 print get_types("http://vivo.ufl.edu/individual/n471753241")
