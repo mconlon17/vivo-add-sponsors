@@ -11,6 +11,8 @@
     --  Handle lang tags and datatypes in dictionary and RDF
     Version 0.4 MC 2014-03-28
     --  Handle unicode from VIVO
+    Version 0.5 MC 2014-04-04
+    --  Fix Extention Units
 """
 
 __author__ = "Michael Conlon"
@@ -121,6 +123,7 @@ def improve_sponsor_name(s):
     t = t.replace("For ", "for ")
     t = t.replace("Fdtn ", "Foundation ")
     t = t.replace("Fou ", "Foundation ")
+    t = t.replace("Gmbh ", "GmbH ")
     t = t.replace("Gov ", "Government ")
     t = t.replace("Hlth ", "Health ")
     t = t.replace("Hosp ", "Hospital ")
@@ -133,17 +136,22 @@ def improve_sponsor_name(s):
     t = t.replace("Mgmt ", "Management ")
     t = t.replace("Nat ", "Natural ")
     t = t.replace("Natl ", "National ")
+    t = t.replace("Ny ", "NY ")
     t = t.replace("Of ", "of ")
     t = t.replace("Ofc ", "Office ")
     t = t.replace("On ", "on ")
     t = t.replace("Reg ", "Regional ")
     t = t.replace("Res ", "Research ")
+    t = t.replace("Sa ", "SA ")
     t = t.replace("Sci ", "Science ")
     t = t.replace("Se ", "Southeast ")
     t = t.replace("Soc ", "Society ")
+    t = t.replace("Sw ", "SW ")
     t = t.replace("Tech ", "Technology ")
     t = t.replace("Univ ", "University ")
     t = t.replace("Us ", "US ")
+    t = t.replace("Usa ", "USA ")
+    t = t.replace("'S ", "'s ")
     t = t.replace(" @", "/") # restore /
     t = t.replace(" @", "/")
     t = t.replace(" !", ",") # restore ,
@@ -202,7 +210,7 @@ def update_org_types(org_uri, org_string):
         'H': 'http://vivoweb.org/ontology/core#Publisher',
         'T': 'http://vivoweb.org/ontology/core#Center',
         'E': 'http://vivoweb.org/ontology/core#College',
-        'X': 'http://vivoweb.org/ontology/core#ExtensionOrganization',
+        'X': 'http://vivoweb.org/ontology/core#ExtensionUnit',
         'V': 'http://vivoweb.org/ontology/core#Division',
         'P': 'http://vivoweb.org/ontology/core#Program',
         'D': 'http://vivoweb.org/ontology/core#Department',
