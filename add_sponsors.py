@@ -146,6 +146,7 @@ def improve_sponsor_name(s):
     t = t.replace("Of ", "of ")
     t = t.replace("Ofc ", "Office ")
     t = t.replace("On ", "on ")
+    t = t.replace("Plc ", "PLC ")
     t = t.replace("Reg ", "Regional ")
     t = t.replace("Res ", "Research ")
     t = t.replace("Sa ", "SA ")
@@ -157,6 +158,7 @@ def improve_sponsor_name(s):
     t = t.replace("Tech ", "Technology ")
     t = t.replace("The ", "the ")
     t = t.replace("To ", "to ")
+    t = t.replace("Uf ", "University of Florida ")
     t = t.replace("Uk ", "UK ")
     t = t.replace("Univ ", "University ")
     t = t.replace("Us ", "US ")
@@ -167,7 +169,8 @@ def improve_sponsor_name(s):
     t = t.replace(" !", ",") # restore ,
     t = t.replace(" !", ",") # restore ,
     t = t.replace(" #", "-") # restore -
-    return t[:-1] # Take off the trailing space
+    t = t[0].upper() + t[1:-1]
+    return t
 
 def add_sponsor(sponsor_id):
     """
